@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body 
+{
+	background-color: rgba(92,92,92,0.79);
+}
+.card 
+{
+	position: relative;
+	top:-50px;
+	left: 100px;
+}
+
+.card-head 
+{
+	background-color: white;
+	width: 330px;
+	height: 235px;
+	position: relative;
+	left: 220px;
+	top: 100px;
+	border-top-left-radius: 20%;
+    border-top-right-radius: 20px;
+	
+}
+.head-img 
+{
+    width: 330px;
+	height: 235px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+.card-body 
+{
+	width: 330px;
+	height: 250px;
+	background-color: white;
+	position: absolute;
+	top: 330px;
+	left: 220px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	
+	
+}
+#price
+{
+	color: white;
+	background-color: rgba(27,218,84,1.00);
+	box-sizing: border-box;
+	padding: 3px 3px;
+	width: 120px;
+	text-align: center;
+	border-radius: 5px;
+	position: relative;
+	left: 230px;
+	top: 20px;
+	font-family: "Roboto Slab";
+	text-decoration: none;
+	
+}
+#price:hover 
+{
+	background-color: rgba(17,138,53,0.98);
+	transition-duration: 0.8;
+}
+#price a {
+	text-decoration: none;
+}
+.card-body img 
+{
+	top:-14px;
+	position: relative;
+	
+}
+.body-decs 
+{
+	font-family: georgia;
+	font-size: 14px;
+	padding-left: 6px;
+	line-height: 1.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
